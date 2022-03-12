@@ -1,0 +1,10 @@
+@mixin flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin tablet {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
